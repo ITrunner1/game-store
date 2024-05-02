@@ -2,7 +2,7 @@
   "name": "gamestop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ITrunner1.github.io/game-store",
+  "homepage": "https://ITrunner1.github.io/game-store/store",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -19,7 +19,6 @@
     "framer-motion": "^9.0.2",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.1.1",
-    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-cssfx-loading": "^2.1.0",
     "react-dom": "^18.2.0",
@@ -62,8 +61,9 @@
   "devDependencies": {
     "@types/react-slick": "^0.23.10",
     "gh-pages": "^5.0.0",
+    "node-sass": "^9.0.0",
     "sass": "^1.58.0",
-    "sass-loader": "^13.2.0",
+    "sass-loader": "^13.3.3",
     "webpack": "^5.75.0"
   }
 }

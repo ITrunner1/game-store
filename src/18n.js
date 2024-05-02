@@ -23,7 +23,7 @@ i18n
       excludeCacheFor: ['cimode'], 
     },
     backend: {
-      loadPath: '/game-store-course_work/locales/{{lng}}/translation.json'
+      loadPath: '/game-store/locales/{{lng}}/translation.json'
     },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default

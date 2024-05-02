@@ -24,7 +24,7 @@ const App = () => {
   const { theme, setTheme } = useTheme();
   return (
       <Provider store = {store}>
-        <BrowserRouter basename='/game-store-course_work'>
+        <BrowserRouter basename='/'>
           <Routes>
             <Route index element={<Navigate to="store" replace />} />          
             <Route path='login' element={<LogIn />} /> 
